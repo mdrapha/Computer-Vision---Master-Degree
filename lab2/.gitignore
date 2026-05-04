@@ -1,6 +1,6 @@
 # Build artifacts
-/build/
-/cmake-build-*/
+/projeto/build/
+/projeto/cmake-build-*/
 *.o
 *.obj
 *.a
@@ -15,22 +15,23 @@
 *.exe
 
 # Dataset and archives
-/sel_data/
-/sel_data.zip
+/projeto/Data/sel_data/
+/projeto/Data/sel_data.zip
+/projeto/Data/lab02_hough_pratos.pdf
 
 # Generated outputs: keep only result images from manual run
-/results/
-/results_manual/**
-!/results_manual/
-!/results_manual/balanced/
-!/results_manual/balanced/images/
-!/results_manual/balanced/images/*.jpg
-!/results_manual/sensitive/
-!/results_manual/sensitive/images/
-!/results_manual/sensitive/images/*.jpg
-!/results_manual/strict/
-!/results_manual/strict/images/
-!/results_manual/strict/images/*.jpg
+/projeto/results/
+/projeto/results_manual/**
+!/projeto/results_manual/
+!/projeto/results_manual/balanced/
+!/projeto/results_manual/balanced/images/
+!/projeto/results_manual/balanced/images/*.jpg
+!/projeto/results_manual/sensitive/
+!/projeto/results_manual/sensitive/images/
+!/projeto/results_manual/sensitive/images/*.jpg
+!/projeto/results_manual/strict/
+!/projeto/results_manual/strict/images/
+!/projeto/results_manual/strict/images/*.jpg
 
 # Editor / local metadata
 .DS_Store
