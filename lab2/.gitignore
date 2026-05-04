@@ -1,0 +1,37 @@
+# Build artifacts
+/build/
+/cmake-build-*/
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+
+# Local executables
+*.exe
+
+# Dataset and archives
+/sel_data/
+/sel_data.zip
+
+# Generated outputs: keep only result images from manual run
+/results/
+/results_manual/**
+!/results_manual/
+!/results_manual/balanced/
+!/results_manual/balanced/images/
+!/results_manual/balanced/images/*.jpg
+!/results_manual/sensitive/
+!/results_manual/sensitive/images/
+!/results_manual/sensitive/images/*.jpg
+!/results_manual/strict/
+!/results_manual/strict/images/
+!/results_manual/strict/images/*.jpg
+
+# Editor / local metadata
+.DS_Store
+Thumbs.db
